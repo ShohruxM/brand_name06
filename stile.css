@@ -29,11 +29,15 @@ button {
   background-size: 100%;
 }
 .header-top {
+  position: fixed;
+  top: 0;
+  width: 1140px;
   height: 60px;
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
   align-items: center;
+  
 }
 .header-left {
   width: 50%;
@@ -347,3 +351,126 @@ font-weight: 700;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.packages-title{
+  color: #23A6F0;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+
+}
+.packages-name{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.20000000298023224px;
+padding: 10px 0;
+text-align: left;
+color: #252B42;
+
+}
+.packages-text{
+  color: var(--second-text-color, #737373);
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+
+.packages-top{
+  width: 500px;
+  padding: 15px 0;
+}
+.packages-list{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.packages-info{
+  color: var(--primary-text-color, #23A6F0);
+
+/* link */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.packages-subtitle{
+  color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.packages-subtext{
+  color: var(--second-text-color, #737373);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+
+.packages-sale{
+  background-color: red;
+  color: white;
+  padding: 5px 12px;
+  width: 60px;
+}
+
+
+.packages-box{
+  position: relative;
+}
+
+.packages-sale{
+  position: absolute;
+  top: 16%;
+  left: 15%;
+transform: translate(-50%,-50%);
+}
+
+.packages-blok{
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+transform: translate(-50%,-50%);
+}
+.packages-blok button{
+  font-size: 25px;
+  background-color: green;
+  padding: 4px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+
+
